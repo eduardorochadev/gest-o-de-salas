@@ -17,14 +17,23 @@ export const HeaderLogo = styled.div`
 `;
 
 export const HeaderNav = styled.nav`
-        border: 1px solid red;
         margin-top: 26px;
         padding: 0 16px;
         & li a{
-            display: block;
+            display: flex;
+            align-itens: center;
+            gap: 16px;
             line-height: 46px;
+            color: white;
             border-radius: 5px;
             padding: 0 16px;
+            transition-duration: 300ms;
+        }
+        & li a:hover{
+                background-color: #00000015;
+        }
+        & li a box-icon{
+                height: 46px;
         }
         & li a.active{
             background-color: white;

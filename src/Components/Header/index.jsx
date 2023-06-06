@@ -2,6 +2,7 @@ import { HeaderContainer, HeaderLogo, HeaderNav } from "./stylus";
 import 'boxicons'
 import { useLocation} from "react-router-dom";
 
+
 const Header = () => {
 
     let location = useLocation();

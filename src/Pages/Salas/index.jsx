@@ -69,10 +69,14 @@ const Salas = () => {
     width: 40px;
     height: 40px;
     text-align: center;
+    align-itens: center;
     background-color: blueviolet;
     border-radius: 25px;
+    padding: 9px;
     color: white;
     cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
  `;
  
 export default Salas;

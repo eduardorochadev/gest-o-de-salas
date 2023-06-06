@@ -5,12 +5,12 @@ import { Container, Main } from "./stylus"
 const Dashboard = () => {
     return(
         <>
-        <Container>
-            <Header />
-            <Main>
-               <Outlet />  
-            </Main>           
-        </Container>        
+            <Container>
+                <Header />
+                <Main>
+                    <Outlet />  
+                </Main>           
+            </Container>        
         </>
     )
 }
