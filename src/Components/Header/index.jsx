@@ -1,7 +1,10 @@
 import { HeaderContainer, HeaderLogo, HeaderNav } from "./stylus";
+
 import 'boxicons'
+
 import { useLocation} from "react-router-dom";
 
+import { useState } from "react";
 
 const Header = () => {
 
