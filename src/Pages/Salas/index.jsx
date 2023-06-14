@@ -4,6 +4,7 @@ import DataTable from "react-data-table-component";
 
 import { useState } from "react";
 import { useForm } from "react-hook-form";
+import { Input, Label } from "../../Components/FormComponents";
 
 const Salas = () => {
 
@@ -96,7 +97,6 @@ const Salas = () => {
       }
     });
     setSalas(salasRestantes);
-    setLateralEditar(false);
   }
 
   return (
@@ -216,28 +216,6 @@ const Lateral = styled.div`
     right: 0;
     opacity: 1;
     visibility: visible;
-  }
-`;
-
-const Label = styled.label`
-  font-size: 12px;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-bottom: 6px;
-  display: block;
-`;
-
-const Input = styled.input`
-  width: 100%;
-  height: 40px;
-  border: 2px solid #DDDDDD;
-  border-radius: 5px;
-  padding-left: 10px;
-  margin-bottom: 16px;
-  outline: none;
-  &:focus{
-    border-color: blueviolet;
   }
 `;
 
